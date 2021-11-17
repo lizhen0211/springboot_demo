@@ -9,3 +9,6 @@ curl localhost:8080/actuator/health
 curl -X POST localhost:8080/actuator/shutdown
 ####安装SDKMAN
 curl -s "https://get.sdkman.io" | bash
+#### 构建一个可执行的 JAR
+./gradlew bootRun 或 ./gradlew build
+./mvnw spring-boot:run 或 ./mvnw clean package
