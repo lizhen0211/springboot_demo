@@ -7,3 +7,5 @@ Run the Application $./mvnw spring-boot:run
 curl localhost:8080/actuator/health
 ####关闭服务
 curl -X POST localhost:8080/actuator/shutdown
+####安装SDKMAN
+curl -s "https://get.sdkman.io" | bash
